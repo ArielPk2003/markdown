@@ -1,4 +1,4 @@
-16 de noviembre del 2022 </h1>
+16 de noviembre del 2022 
 ##### Harryson Ariel Montesdeoca Rhea
 
 
@@ -11,7 +11,7 @@ Primero comandos básicos con los cuales podemos manipular Markdown.
 
 
 
-- Titulo  1:  #     ---> Hará el titulo principal/más grande y vistoso
+- Titulo  1:  #         ---> Hará el titulo principal/más grande y vistoso
 
 - Titulo  2:  ##	---> Hará el titulo secundario/un poco menos grande 
 
