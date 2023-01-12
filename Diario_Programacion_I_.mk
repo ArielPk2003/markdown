@@ -1,39 +1,40 @@
 16 de noviembre del 2022 </h1>
 ##### Harryson Ariel Montesdeoca Rhea
-# <h1 style="color: #7FFF00"> CLASE 3 - Git + Markdown
+
 
 Despues de haber creado nuestra carpeta Gitmarkdown en nuestro repositorio y agregarlo a  editor Visual Studio Code
-Esta carpeta y precisamente este archivo servirá de diario para lo más importante de lo visto en clases.
+Esta carpeta y precisamente este archivo servirÃ¡ de diario para lo mÃ¡s importante de lo visto en clases.
 
 
-Primero comandos básicos con los cuales podemos manipular Markdown.
-
-___
+Primero comandos bÃ¡sicos con los cuales podemos manipular Markdown.
 
 
-- Titulo  1:  #     ---> Hará el titulo principal/más grande y vistoso
 
-- Titulo  2:  ##	---> Hará el titulo secundario/un poco menos grande 
 
-- Titulo  3:  ###	---> Hará el subtitulo principal/tamano normal
+- Titulo  1:  #     ---> HarÃ¡ el titulo principal/mÃ¡s grande y vistoso
 
-- Titulo  4: ####	---> Hará el subtitulo secundario
+- Titulo  2:  ##	---> HarÃ¡ el titulo secundario/un poco menos grande 
 
-- Titulo  5: #####	---> Será el tamano de la mayoria de texto
+- Titulo  3:  ###	---> HarÃ¡ el subtitulo principal/tamano normal
 
-### **Modificador de texto**
+- Titulo  4: ####	---> HarÃ¡ el subtitulo secundario
 
-command: ** word ** 		----> Hará el texto más marcado
+- Titulo  5: #####	---> SerÃ¡ el tamano de la mayoria de texto
 
-command: * cualquier cosa *		 ----> Hará el texto cursivo
+### **Modificadores de texto**
+
+command: ** word ** 			----> HarÃ¡ el texto mÃ¡s marcado
+
+command: * cualquier cosa *		----> HarÃ¡ el texto cursivo
 
 command: *** Ariel***			----> Combinara negritas con cursiva
 
-Tachado command: ~~ Palabra ~~	----> Tachara el texto
+Tachado command: ~~ Palabra ~~		----> Tachara el texto
 
 ### ***Marco obscuro***
 
 #### Primero lo principal
+
 ##### El Hola mundo, el primer paso de todo futuro programador. 
 
 int main(){
@@ -53,14 +54,15 @@ Nos permite ignorar todos los archivos .txt que tengamos
 ## Version del git: 
 - git -m "nombre de la version" 
 
----
+
+
 
 # 18 de noviembre del 2022
 
 
 Para el manejo del git se reviso ciertos comandos que nos ayudan a interactuar con el.
 
-```
+
 1. git commit -m"Version1"
 2. gcc --version
 3. ls
@@ -71,7 +73,7 @@ Para el manejo del git se reviso ciertos comandos que nos ayudan a interactuar c
 8. pwd
 9. git status
 10. echo .gitignore >> .gitignore
-````
+
 
 
 ***Para mandar a crear un archivo .exe con el codigo que se desea compilar es necesario el siguiente comando:***
@@ -104,7 +106,7 @@ double
 
 21 de noviembre del 2022
 
-**¿Qué son las librerias y en que las utilizamos?**
+**Â¿QuÃ© son las librerias y en que las utilizamos?**
 
 
 Son espacios que el codificador tiende a llamar a la hora de hacer sus proyectos ya que estas brindan una gama de herramientas que hace mas sencilla la codificacion para el usuario
@@ -152,7 +154,8 @@ int main(){
     return 0;
 }
 
-````
+
+
 
 El siguiente codigo presenta nos ensenaba como usar un for:
 
@@ -182,14 +185,14 @@ int signos=0;
 }
 
 #### Recordar ####
-Funciones: Busca realizar una tarea especifica, y su nombre se asocia a la tarea . Una función contiene declaraciones e instrucciones.
-Se inicia una función con un tipo de dato.
+Funciones: Busca realizar una tarea especifica, y su nombre se asocia a la tarea . Una funciÃ³n contiene declaraciones e instrucciones.
+Se inicia una funciÃ³n con un tipo de dato.
 
 
-Refactorización: Podemos cambiar código con dos restricciones cruciales: Los cambios hacen que el código sea más fácil de entender y es mas ediciente.
+RefactorizaciÃ³n: Podemos cambiar cÃ³digo con dos restricciones cruciales: Los cambios hacen que el cÃ³digo sea mÃ¡s fÃ¡cil de entender y es mas ediciente.
 
     Beneficios:
-    1. Reutilización del código.
+    1. ReutilizaciÃ³n del cÃ³digo.
     2. Estructura modular.
 	3. Mejorar nuestro codigo
 
@@ -324,12 +327,12 @@ void main()
 
 C++ es un lenguaje mas rapido / mejorado de C, cambiando parcialmente la sintaxis de escritura en algunos comandos y manteniendolos en otros siendo el caso de:
 
-In c              In c++
+In c            	  In c++
 printf()		  cout<<""
 scanf()			  cin>>
 for()			  for()
 do{}while()	  	  do{}While()
-\n                \n o endl;
+\n                        \n o endl;
 
 
 La logica se mantiene pero algunas palabras reservadas cambian.
@@ -347,15 +350,15 @@ int main(int argc, char *argv[])
 03 - 01 - 2023
 # Archivos
 
-En C++, existen varias formas de acceder a archivos. Una de las formas más comunes es mediante el uso de la biblioteca estándar de C++, la cual proporciona varios objetos y funciones para el manejo de archivos.
+En C++, existen varias formas de acceder a archivos. Una de las formas mÃ¡s comunes es mediante el uso de la biblioteca estÃ¡ndar de C++, la cual proporciona varios objetos y funciones para el manejo de archivos.
 
-Para acceder a un archivo, primero se debe incluir la librería <fstream> y crear un objeto de archivo de tipo ifstream (input file stream) o ofstream (output file stream). Luego, se puede abrir el archivo utilizando el método open() y especificando el nombre del archivo y el modo de acceso (leer, escribir o agregar).
+Para acceder a un archivo, primero se debe incluir la librerÃ­a <fstream> y crear un objeto de archivo de tipo ifstream (input file stream) o ofstream (output file stream). Luego, se puede abrir el archivo utilizando el mÃ©todo open() y especificando el nombre del archivo y el modo de acceso (leer, escribir o agregar).
 
-Una vez abierto el archivo, se puede utilizar el objeto para realizar operaciones de lectura o escritura. Para leer el archivo, se pueden utilizar operadores de lectura (>>) o los métodos getline() o get(). Para escribir en el archivo, se pueden utilizar operadores de escritura (<<) o el método put().
+Una vez abierto el archivo, se puede utilizar el objeto para realizar operaciones de lectura o escritura. Para leer el archivo, se pueden utilizar operadores de lectura (>>) o los mÃ©todos getline() o get(). Para escribir en el archivo, se pueden utilizar operadores de escritura (<<) o el mÃ©todo put().
 
-Finalmente, es importante cerrar el archivo después de su uso mediante el método close() para liberar los recursos del sistema.
+Finalmente, es importante cerrar el archivo despuÃ©s de su uso mediante el mÃ©todo close() para liberar los recursos del sistema.
 
-En resumen, acceder a archivos en C++ implica incluir la librería <fstream>, crear un objeto de archivo de tipo ifstream o ofstream, abrir el archivo utilizando el método open(), realizar operaciones de lectura o escritura, y cerrar el archivo después de su uso mediante el método close().
+En resumen, acceder a archivos en C++ implica incluir la librerÃ­a <fstream>, crear un objeto de archivo de tipo ifstream o ofstream, abrir el archivo utilizando el mÃ©todo open(), realizar operaciones de lectura o escritura, y cerrar el archivo despuÃ©s de su uso mediante el mÃ©todo close().
 
 
 
