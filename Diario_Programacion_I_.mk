@@ -129,7 +129,7 @@ Para iniciar con un proyecto en C es necesario:
 3. Escoger la carpeta a ser usada y nombrar al proyecto
 
 
-Uno de los primeros cosigos consistia en determinar el area de un rectangulo al ingresar los valores de la altura y la base.
+Uno de los primeros codigos consistia en determinar el area de un rectangulo al ingresar los valores de la altura y la base.
 
 #include<stdio.h>
 
